@@ -11,7 +11,7 @@ pipeline {
 
             steps{
 
-                checkout([$class: 'GitSCM', branches: [[name: '*/stage']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-multi', url: 'https://https://github.com/naveenkumar2412/jenkins-cicd']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/stage']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-multi', url: 'https://github.com/naveenkumar2412/jenkins-cicd.git']]])
 
             }
         }
