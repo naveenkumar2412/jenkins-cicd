@@ -33,7 +33,7 @@ pipeline {
         stage('Run image ') {
 
             steps{
-                sh 'sudo docker run -p5000:5000 --restart=always --name $imagename  -itd $imagename'
+                sh 'sudo docker run -p6000:5000 --restart=always --name $imagename  -itd $imagename'
 
             }
 
