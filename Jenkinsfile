@@ -7,7 +7,7 @@ pipeline {
     agent any
     stages {
 
-        stage('Git production'){
+        stage('Git prod'){
 
             steps{
 
