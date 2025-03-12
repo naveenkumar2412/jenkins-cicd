@@ -7,7 +7,7 @@ pipeline {
     agent any
     stages {
 
-        stage('Git Staging'){
+        stage('Git dev'){
 
             steps{
 
